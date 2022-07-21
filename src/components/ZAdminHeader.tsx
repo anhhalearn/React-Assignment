@@ -20,7 +20,7 @@ const ZAdminHeader = () => {
         </div>
         <div>
           <div className="z-admin-header-user-info text-xl text-white">
-            Xin chào Nguyễn Văn Hoàng
+            Xin chào Nguyễn Hữu Hà
           </div>
         </div>
       </ZContainer>
