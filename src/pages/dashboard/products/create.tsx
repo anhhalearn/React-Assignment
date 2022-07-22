@@ -106,7 +106,7 @@ const CreateProduct = () => {
           </div>
           <div className="mb-4">
             <label className="block mb-2 text-base">Mô tả ngắn</label>
-            <textarea value={short_description} onChange={(e) => setShortDescription(e.target.value)} className="w-full p-2 border-[1px] border-transparent focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
+            <textarea value={short_description} onChange={(e) => setShortDescription(e.target.value)} className="w-full p-2 border-[1px] focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
             </textarea>
           </div>
         </div>
@@ -140,12 +140,12 @@ const CreateProduct = () => {
           </div>
           <div className="mb-6">
             <label className="block mb-2 text-base">Đặc điểm nổi bật</label>
-            <textarea value={feature} onChange={(e) => setFeature(e.target.value)} className="w-full p-2 border-[1px] border-transparent focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
+            <textarea value={feature} onChange={(e) => setFeature(e.target.value)} className="w-full p-2 border-[1px] focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
             </textarea>
           </div>
           <div className="mb-6">
             <label className="block mb-2 text-base">Mô tả dài</label>
-            <textarea value={description} onChange={(e) => setDescription(e.target.value)} className="w-full p-2 border-[1px] border-transparent focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
+            <textarea value={description} onChange={(e) => setDescription(e.target.value)} className="w-full p-2 border-[1px] focus:outline-none focus:border-[1px] focus:border-cyan-500 rounded-sm h-32">
             </textarea>
           </div>
           <div className="mb-6">

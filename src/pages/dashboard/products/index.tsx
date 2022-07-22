@@ -48,7 +48,7 @@ const Products = () => {
       title: "Ẩn/hiện",
       dataIndex: "show",
       key: "show",
-      render: (_, record: Product) => {
+      render: (_: any, record: Product) => {
         return <Switch checked={record.status}  onChange={() => onChangeStatus(record)} />
       }
     },
@@ -56,7 +56,7 @@ const Products = () => {
       title: "Thao tác",
       dataIndex: "action",
       key: "action",
-      render: (_, record: Product) => {
+      render: (_: any, record: Product) => {
         return <div className="flex">
             <NavLink to={`/dashboard/products/update/${record.id}`}>
               <img src={EditIcon} alt="edit" />
@@ -123,7 +123,7 @@ const Products = () => {
             ))}
           </Select>
         </div>
-        <div className="ml-8 text-base hover:text-cyan-500 cursor-pointer" onClick={onClearQuery}>
+        <div className="ml-8 text-base cursor-pointer bg-cyan-500 py-1 px-3 text-white" onClick={onClearQuery}>
           Clear
         </div>
       </div>
