@@ -1,4 +1,36 @@
 {
+  "users": [
+    {
+      "email": "shinhagunn@gmail.com",
+      "password": "$2a$10$wY72Q5h4E.G6K/XxykfQiu54mJbm7v8z5AztmOZ3IxtPEd4HODLXi",
+      "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$yVS0EGO5JAl.F2Db2GFjjuwjHQv4xwtG0ZjsRkvGXkJJDBEHpC.OS",
+      "id": 2
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$IZyO.SSkPVYmWqxwlOfT4.yMU3VhU8kCdlou8YkF5JaDOJzw6xtTu",
+      "id": 3
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$Hy2PpA7U7NsxMieg6WFfk.g7ZJw7xyUPB1NwlbiMUCRYOX.UHGjCm",
+      "id": 4
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$UJBxWah3Q/RiVtqO/q4aNelrH7DJ0ahOSBwvM8nqATWUOYNpOAfVi",
+      "id": 5
+    },
+    {
+      "email": "huuhadz2k@gmail.com",
+      "password": "$2a$10$rmAcrs7n8nPkgKwbyUZ32uF1hfJS4TjKIIPR5cKJk2wG2RSXAPq7S",
+      "id": 6
+    }
+  ],
   "categories": [
     {
       "id": 1,
@@ -16,137 +48,136 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 1,
-      "name": "Sản phẩm 1",
+      "name": "Laptop 1",
       "old_price": 100000,
       "new_price": 90000,
-      "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec laptop xin xo nhat viet nam",
-      "image": "",
+      "feature": "test",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
+      "categoryId": 1,
       "status": true,
       "key": 1
     },
     {
       "id": 2,
       "categoryId": 1,
-      "name": "Sản phẩm 2",
+      "name": "Laptop 2",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec laptop xin xo nhat viet nam",
-      "image": "",
-      "status": true
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
+      "status": false,
+      "key": 2
     },
     {
       "id": 4,
-      "categoryId": 1,
-      "name": "Sản phẩm 3",
+      "name": "Laptop 4",
       "old_price": 100000,
       "new_price": 90000,
-      "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec laptop xin xo nhat viet nam",
-      "image": "",
-      "status": true,
-      "key": 4
-    },
-    {
-      "id": 8,
+      "feature": "test",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "categoryId": 1,
-      "name": "Sản phẩm 4",
-      "old_price": 100000,
-      "new_price": 90000,
-      "feature": "test",
-      "short_description": "Test short",
-      "description": "Day la chiec laptop xin xo nhat viet nam",
-      "image": "",
       "status": true
     },
     {
-      "id": 9,
-      "categoryId": 2,
-      "name": "Sản phẩm 5",
-      "old_price": 100000,
+      "id": 8,
+      "name": "Laptop 8",
+      "old_price": 3453,
       "new_price": 90000,
-      "feature": "test",
       "short_description": "Test short",
-      "description": "Day la chiec phone xin xo nhat viet nam",
-      "image": "",
-      "status": true,
-      "key": 9
+      "description": "Day la chiec laptop xin xo nhat viet nam",
+      "feature": "test",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
+      "categoryId": 1,
+      "status": true
     },
     {
       "id": 10,
       "categoryId": 2,
-      "name": "Sản phẩm 6",
+      "name": "Phone 2",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec phone xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "status": true
     },
     {
       "id": 13,
       "categoryId": 3,
-      "name": "Sản phẩm 7",
+      "name": "Tablet 1",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec tablet xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "status": true
     },
     {
       "id": 14,
       "categoryId": 3,
-      "name": "Sản phẩm 8",
+      "name": "Tablet 2",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec tablet xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "status": true
     },
     {
       "id": 15,
       "categoryId": 3,
-      "name": "Sản phẩm 9",
+      "name": "Tablet 3",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec tablet xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "status": true
     },
     {
       "id": 16,
       "categoryId": 3,
-      "name": "Sản phẩm 10",
+      "name": "Tablet 4",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec tablet xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
       "status": true
     },
     {
       "id": 17,
       "categoryId": 3,
-      "name": "Sản phẩm 11",
+      "name": "Tablet 5",
       "old_price": 100000,
       "new_price": 90000,
       "feature": "test",
       "short_description": "Test short",
       "description": "Day la chiec tablet xin xo nhat viet nam",
-      "image": "",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
+      "status": true
+    },
+    {
+      "id": 18,
+      "name": "12323",
+      "old_price": 123,
+      "new_price": 123,
+      "short_description": "",
+      "description": "",
+      "feature": "wqe",
+      "image": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_burgundy_211119.jpg",
+      "categoryId": 1,
       "status": true
     }
   ]
