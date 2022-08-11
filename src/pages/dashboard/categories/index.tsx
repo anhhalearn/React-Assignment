@@ -33,7 +33,7 @@ const Categories = () => {
       title: "Thao tác",
       dataIndex: "action",
       key: "action",
-      render: (_, record: Product) => {
+      render: (_, record: Category) => {
         return <div className="flex">
             <button className="ml-4">
               <img src={RabishIcon} alt="edit" onClick={() => deleteCategory(record.id)}/>
