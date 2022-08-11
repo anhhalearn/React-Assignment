@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 import config from '../config';
 
 const jsonToParam = (json: any, first_str = '?') => {
-  const parts = [];
+  const parts = Array<string>();
   for (const i in json) {
     if (json.hasOwnProperty(i) && json[i]) {
       parts.push(`${encodeURIComponent(i)}=${encodeURIComponent(json[i])}`);
